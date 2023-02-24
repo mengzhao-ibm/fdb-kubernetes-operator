@@ -32,6 +32,12 @@ const (
 	ProcessClassTransaction ProcessClass = "transaction"
 	// ProcessClassStateless model for FDB stateless processes
 	ProcessClassStateless ProcessClass = "stateless"
+	// ProcessClassProxy model for FDB proxy processes
+	ProcessClassProxy ProcessClass = "proxy"
+	// ProcessClassCommitProxy model for FDB commit_proxy processes
+	ProcessClassCommitProxy ProcessClass = "commit_proxy"
+	// ProcessClassGrvProxy model for FDB grv_proxy processes
+	ProcessClassGrvProxy ProcessClass = "grv_proxy"
 	// ProcessClassGeneral model for FDB general processes
 	ProcessClassGeneral ProcessClass = "general"
 	// ProcessClassClusterController model for FDB class cluster_controller
